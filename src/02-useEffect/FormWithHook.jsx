@@ -34,7 +34,7 @@ export const FormWithHook = () => {
         onChange={onInputChange}     
     />
 
-<input
+    <input
         type="password"
         className='form-control'
         placeholder='password'
