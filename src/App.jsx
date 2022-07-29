@@ -7,10 +7,12 @@
 // import { Layout } from './05-useLayoutEffect/Layout'
 // import { HookMemo } from './06-memo/HookMemo'
 // import { HookCallback } from './07-useCallback/HookCallback'
-import { Tarea } from './08-Tarea/Tarea'
+// import { Tarea } from './08-Tarea/Tarea'
 // import { Memorize } from './06-memo/Memorize'
 // import { SimpleForm } from './02-useEffect/SimpleForm'
 
+// import './09-reducer/intro-reducer'
+import { TodoApp } from './09-reducer/TodoApp'
 import './App.css'
 
 function App() {
@@ -19,7 +21,7 @@ function App() {
     <div className="App">
         <h1>Hooks App</h1>
         <hr />
-        <Tarea />
+        <TodoApp />
     </div>
   )
 }
