@@ -12,7 +12,8 @@
 // import { SimpleForm } from './02-useEffect/SimpleForm'
 
 // import './09-reducer/intro-reducer'
-import { TodoApp } from './09-reducer/TodoApp'
+// import { TodoApp } from './09-reducer/TodoApp'
+import { MainApp } from './10-useContext/MainApp'
 import './App.css'
 
 function App() {
@@ -21,7 +22,7 @@ function App() {
     <div className="App">
         <h1>Hooks App</h1>
         <hr />
-        <TodoApp />
+        <MainApp />
     </div>
   )
 }
